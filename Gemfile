@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 group :development do
+  gem 'pry', '< 0.10.0'
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-stack_explorer'
